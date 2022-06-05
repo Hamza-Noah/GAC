@@ -275,7 +275,7 @@ nav .nav-link {
 }
 
 .procedures .procedure:hover span {
-  transform: rotate(180deg);
+  transform: rotate(240deg);
 }
 
 .news h2 {
@@ -296,14 +296,12 @@ nav .nav-link {
   right: 5%;
   width: 90%;
   height: 90%;
-  display: flex;
-  align-items: flex-end;
-  border: solid 2px white;
+  border: solid 1px white;
   border-radius: 30px;
   color: white;
   text-align: right;
   font-size: 12px;
-  background: transparent linear-gradient(180deg, #00264d00 0%, #00264dbf 49%, #00264d 100%) 0% 0% no-repeat padding-box;
+  background: transparent linear-gradient(180deg, #00264d00 0%, #00264dbf 29%, #00264d 100%) 0% 0% no-repeat padding-box;
 }
 
 .news .owl-carousel .owl-item.active.center {
