@@ -1,0 +1,91 @@
+@import "Sections/variables";
+// @import "fonts";
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+@font-face {
+  font-family: "TheSans";
+  src: url("../fonts/TheSans-Plain.woff2") format("woff2"),
+    url("../fonts/TheSans-Plain.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "TheSansArab";
+  src: url("../font/TheSansArab-Bold.woff2") format("woff2"),
+    url("../font/TheSansArab-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "TheSansArabic";
+  src: url("../fonts/TheSansArabic-Bold.woff2") format("woff2"),
+    url("../font/TheSansArabic-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "IBM Plex Sans Arabic";
+  src: url("IBMPlexSansArabic-SemiBold.woff2") format("woff2"),
+    url("IBMPlexSansArabic-SemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "TheSansArabic Plain";
+  src: url("../fonts/TheSansArabic-Bold.woff2") format("woff2"),
+    url("../font/TheSansArabic-Plain.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "TheSansArabic";
+  src: url("../fonts/TheSansArabic-SemiBold.woff2") format("woff2"),
+    url("../font/TheSansArabic-SemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "TheSansArab Plain";
+  src: url("../font/TheSansArab-Plain.woff2") format("woff2"),
+    url("../font/TheSansArab-Plain.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+p {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit !important;
+}
+
+body {
+  font-family: "theSansArabic";
+}
+
+@import "sections/upperbar";
+@import "sections/navbar";
+@import "sections/landing";
+@import "sections/procedures";
+@import "sections/news";
+@import "sections/statistics";

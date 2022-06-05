@@ -1,0 +1,59 @@
+.landing {
+  position: relative;
+  background: url("../images/landing.jpg");
+  background-size: cover;
+  height: calc(100vh - #{$header-height});
+
+  &::after {
+    content: "";
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-image: url("../images/SVG/arrow.svg");
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px;
+  }
+
+  h1 {
+    top: 30%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  p {
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .owl-dots {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translateX(-50%);
+
+    .owl-dot span {
+      width: 25px;
+      height: 5px;
+      background-color: white;
+    }
+
+    .owl-dot.active span {
+      background-color: $secondary-color;
+    }
+  }
+
+  @media (max-width: 767px) {
+    & {
+      height: calc(100vh - #{$header-height-small});
+    }
+  }
+
+  @media (min-width: 992px) {
+    p {
+      white-space: nowrap;
+    }
+  }
+}

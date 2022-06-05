@@ -1,0 +1,53 @@
+.upperbar {
+  background: $main-color;
+  color: white;
+  padding: 10px 0;
+
+  .date{
+      font-weight: 900;
+      font-size: .8rem !important;
+  }
+
+  .form-field {
+    position: relative;
+    transition: all $transition 0.3s;
+    width: 80px;
+  }
+
+  .form-field.active {
+    width: 160px;
+  }
+
+  input {
+    background-color: $main-color !important;
+    border: white solid 2px;
+    border-radius: 20px;
+    outline: none;
+    padding: 3px 12px;
+    color: white !important;
+    font-weight: bolder;
+    font-size: 0.8rem;
+  }
+
+  ::placeholder {
+    font-weight: bolder;
+    color: white;
+    opacity: 1;
+  }
+
+  :-ms-input-placeholder {
+    color: white;
+  }
+
+  ::-ms-input-placeholder {
+    color: white;
+  }
+
+  i {
+    position: absolute;
+    left: 10px !important;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 15px;
+  }
+}

@@ -1,0 +1,54 @@
+.news {
+  h2 {
+    color: $main-color;
+    font-weight: bolder;
+  }
+  .owl-carousel {
+    .owl-item {
+      z-index: 1;
+      padding-top: 200px;
+      padding-bottom: 200px;
+      position: relative;
+
+      .info {
+        position: absolute;
+        top: 7%;
+        right: 5%;
+        width: 90%;
+        height: 90%;
+        display: flex;
+        align-items: flex-end;
+        border: solid 2px white;
+        border-radius: 30px;
+        color: white;
+        text-align: right;
+        font-size: 12px;
+        background: transparent
+          linear-gradient(180deg, #00264d00 0%, #00264dbf 49%, #00264d 100%) 0%
+          0% no-repeat padding-box;
+      }
+
+      &.active {
+        &.center {
+          z-index: 2;
+          .item {
+            transform: scale(2);
+          }
+        }
+      }
+      img {
+        border: white 10px solid;
+        border-radius: 30px;
+      }
+    }
+  }
+
+  a {
+    display: inline-block;
+    padding: 5px 18px;
+    border-radius: 80px;
+    box-shadow: 0px 3px 6px #00000029;
+    border: solid 3px $secondary-color;
+    color: $secondary-color !important;
+  }
+}

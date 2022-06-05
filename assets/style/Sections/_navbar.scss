@@ -1,0 +1,43 @@
+nav {
+  .navbar-brand {
+    img {
+      height: 80px !important;
+    }
+    margin: 0;
+  }
+
+  .nav-link {
+    color: $main-color !important;
+    font-weight: bolder !important;
+    font-size: .9rem;
+    padding: 7px !important;
+  }
+
+  @media (max-width: 767px) {
+    .navbar-brand img {
+      height: 50px !important;
+    }
+
+    .nav-link {
+      padding: 25px 0;
+      background-color: $main-color;
+      color: white !important;
+    }
+
+    .navbar-collapse {
+      margin-top: 50px;
+    }
+
+    .vision {
+      display: none;
+    }
+  }
+
+  @media (min-width: 992px) {
+    .electronic-services {
+      color: $secondary-color !important;
+      border: solid $secondary-color;
+      border-radius: 30px;
+    }
+  }
+}
