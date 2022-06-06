@@ -24,16 +24,15 @@ $(document).ready(function () {
     items: 4,
     loop: true,
     margin: 10,
-    // autoplay: true,
-    dots: false,
     responsive: {
       0: {
         items: 1,
-        // nav: true,
+        nav: false,
+        dots: false
       },
       600: {
         items: 1,
-        nav: true,
+        nav: false,
       },
       900: {
         items: 5,
@@ -48,12 +47,27 @@ $(document).ready(function () {
     items: 3,
     loop: true,
     margin: 10,
-    dots: false,
+    dots: true,
     nav: true,
     center: true,
     navText: [
-      "<img src='../images/title-arrow.svg'>",
-      "<img src='../images/title-arrow2.svg'",
+      "<img src='assets/images/SVG/news-arrow2.svg'>",
+      "<img src='assets/images/SVG/news-arrow.svg'>"
     ],
+    responsive: {
+      0: {
+        items: 1,
+        // nav: true,
+      },
+      600: {
+        items: 1,
+        nav: true,
+      },
+      900: {
+        items: 3,
+        nav: true,
+        loop: true,
+      },
+    },
   });
 });

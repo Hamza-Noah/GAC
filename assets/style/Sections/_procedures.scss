@@ -1,14 +1,15 @@
 .procedures {
   height: 150px;
   transform: translateY(-50%);
+  position: relative;
+  z-index: 10;
 
   .procedures-section {
     border: white 5px solid;
     border-radius: 100px 0px;
     background: transparent linear-gradient(265deg, #004580 0%, #006b59 100%) 0%
       0% no-repeat;
-    overflow: hidden;
-  }
+    }
 
   .procedures-section::before {
     content: "";
@@ -30,6 +31,7 @@
     width: 70px;
     padding: 15px !important;
     flex-shrink: 0;
+    position: relative;
   }
 
   span {

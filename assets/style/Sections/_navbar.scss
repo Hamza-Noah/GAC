@@ -9,7 +9,7 @@ nav {
   .nav-link {
     color: $main-color !important;
     font-weight: bolder !important;
-    font-size: .9rem;
+    font-size: 0.9rem;
     padding: 7px !important;
   }
 
@@ -27,7 +27,9 @@ nav {
     .navbar-collapse {
       margin-top: 50px;
     }
+  }
 
+  @media (max-width: 991px) {
     .vision {
       display: none;
     }
