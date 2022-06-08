@@ -71,11 +71,12 @@ $(document).ready(function () {
     },
   });
 
-  $("#ads-carousel").owlCarousel({
-    loop: true,
-    margin: 10,
-    nav: true,
+  $('.owl-carousel').owlCarousel({
+    rtl: true,
+    loop:true,
+    margin:10,
+    nav:false,
     dots: false,
-    items: 1,
-  });
+    items: 1
+})
 });

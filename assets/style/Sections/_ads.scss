@@ -1,9 +1,24 @@
 .ads {
   .ad {
-    background-image: url("../images/SVG/ads.svg");
-    background: transparent linear-gradient(245deg, #004184 0%, #008d33 100%) 0%
-      0% no-repeat padding-box;
-    height: 300px;
+    background-color: #004184 ;
+    background-image:  url("../images/SVG/ads.svg");
     border-radius: 30px;
+    .owl-carousel {
+      border-radius: 30px !important;
+    }
+    .item {
+      padding: 30px;
+    }
+
+    h3 {
+      color: $main-color;
+      margin-bottom: 20px;
+      font-size: 1.4rem;
+      font-weight: 900;
+    }
+
+    p {
+      line-height: 1.5;
+    }
   }
 }
