@@ -28,7 +28,7 @@ $(document).ready(function () {
       0: {
         items: 1,
         nav: false,
-        dots: false
+        dots: false,
       },
       600: {
         items: 1,
@@ -52,7 +52,7 @@ $(document).ready(function () {
     center: true,
     navText: [
       "<img src='assets/images/SVG/news-arrow2.svg'>",
-      "<img src='assets/images/SVG/news-arrow.svg'>"
+      "<img src='assets/images/SVG/news-arrow.svg'>",
     ],
     responsive: {
       0: {
@@ -69,5 +69,13 @@ $(document).ready(function () {
         loop: true,
       },
     },
+  });
+
+  $("#ads-carousel").owlCarousel({
+    loop: true,
+    margin: 10,
+    nav: true,
+    dots: false,
+    items: 1,
   });
 });
