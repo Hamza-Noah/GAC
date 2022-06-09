@@ -472,8 +472,8 @@ nav .nav-link {
 }
 
 .ads .ad {
+  background: transparent linear-gradient(245deg, #004184 0%, #008D33 100%) 0% 0% no-repeat padding-box;
   position: relative;
-  background-image: url("../images/SVG/ads.svg");
   border-radius: 30px;
 }
 
@@ -487,7 +487,7 @@ nav .nav-link {
   right: 0;
   width: 100%;
   height: 100%;
-  background: transparent linear-gradient(245deg, #004184 0%, #008D33 100%) 0% 0% no-repeat padding-box;
+  background-image: url("../images/SVG/ads.svg");
 }
 
 .ads .ad .owl-carousel {
@@ -534,6 +534,45 @@ nav .nav-link {
 @media (max-width: 991px) {
   .links .link {
     margin-bottom: 30px;
+  }
+}
+
+footer {
+  padding: 50px 0;
+  background-color: #004184;
+  background-image: url("../images/SVG/footer.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+footer .social {
+  margin-bottom: 30px;
+}
+
+footer .social li {
+  margin-right: 40px;
+}
+
+footer .privacy li:not(:last-child) {
+  border-left: white 2px solid;
+}
+
+@media (max-width: 767px) {
+  footer .img {
+    text-align: center;
+  }
+  footer .rights {
+    margin-top: 50px;
+  }
+  footer .social {
+    justify-content: center !important;
+    margin: 50px 0;
+  }
+  footer .social li {
+    margin: 0 20px;
+  }
+  footer .privacy {
+    justify-content: center;
   }
 }
 /*# sourceMappingURL=main.css.map */

@@ -1,0 +1,42 @@
+footer {
+  padding: 50px 0;
+  background-color: $main-color;
+  background-image: url("../images/SVG/footer.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  .social {
+    margin-bottom: 30px;
+  }
+
+  .social li {
+    margin-right: 40px;
+  }
+
+  .privacy li:not(:last-child) {
+    border-left: white 2px solid;
+  }
+
+  @media (max-width: 767px) {
+    .img {
+      text-align:center;
+    }
+
+    .rights {
+      margin-top: 50px;
+    }
+
+    .social {
+      justify-content: center !important;
+      margin: 50px 0;
+    }
+
+    .social li {
+      margin: 0 20px;
+    }
+
+    .privacy{
+        justify-content: center;
+    }
+  }
+}

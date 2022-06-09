@@ -1,7 +1,7 @@
 .ads {
   .ad {
+    background: transparent linear-gradient(245deg, #004184 0%, #008D33 100%) 0% 0% no-repeat padding-box;
     position: relative;
-    background-image:  url("../images/SVG/ads.svg");
     border-radius: 30px;
     
     &:before{
@@ -14,7 +14,7 @@
       right: 0;
       width: 100%;
       height: 100%;
-      background: transparent linear-gradient(245deg, #004184 0%, #008D33 100%) 0% 0% no-repeat padding-box;
+      background-image:  url("../images/SVG/ads.svg");
     }
 
     .owl-carousel {
