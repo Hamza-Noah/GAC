@@ -8,6 +8,7 @@
     background-repeat: no-repeat;
     background-position: 100px;
   }
+
   h3 {
     font-size: 2rem;
   }
@@ -47,7 +48,7 @@
 
   @media (max-width: 991px) {
     .title {
-      margin-bottom: 30px;
+      margin-bottom: 50px !important;
     }
 
     .statistic {
@@ -78,9 +79,8 @@
       bottom: 51px;
     }
 
-    .title:hover .title::before{
+    .title:hover .title::before {
       top: -50px;
-      ;
     }
   }
 }

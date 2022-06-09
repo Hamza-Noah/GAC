@@ -1,0 +1,23 @@
+.links {
+  margin: 100px 0;
+
+  h2{
+    color: $main-color;
+  }
+
+  .link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    height: 143px;
+    box-shadow: 0px 3px 20px #00000014;
+    border: 1px solid #eeeeee;
+  }
+
+  @media (max-width: 991px) {
+      .link{
+          margin-bottom: 30px;
+      }
+  }
+}
