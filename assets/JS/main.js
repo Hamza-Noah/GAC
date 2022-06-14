@@ -1,12 +1,4 @@
-let search = document.querySelector(".form-field");
 
-search.addEventListener("focusin", function () {
-  search.classList.add("active");
-});
-
-search.addEventListener("focusout", function () {
-  search.classList.remove("active");
-});
 
 $(document).ready(function () {
   $(".dropdown-toggle").dropdown();
