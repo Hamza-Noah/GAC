@@ -1,5 +1,3 @@
-
-
 $(document).ready(function () {
   $(".dropdown-toggle").dropdown();
 
@@ -39,7 +37,7 @@ $(document).ready(function () {
     items: 3,
     loop: true,
     margin: 10,
-    dots: true,
+    dots: false,
     nav: true,
     center: true,
     navText: [
@@ -48,12 +46,16 @@ $(document).ready(function () {
     ],
     responsive: {
       0: {
+        dots: true,
+        
         items: 1,
-        // nav: true,
+        nav: false,
+        dots: true,
       },
       600: {
         items: 1,
-        nav: true,
+        nav: false,
+        dots: true,
       },
       900: {
         items: 3,
@@ -63,12 +65,12 @@ $(document).ready(function () {
     },
   });
 
-  $('.owl-carousel').owlCarousel({
+  $("#ads-carousel").owlCarousel({
     rtl: true,
-    loop:true,
-    margin:10,
-    nav:false,
+    loop: true,
+    margin: 10,
+    nav: false,
     dots: false,
-    items: 1
-})
+    items: 1,
+  });
 });
